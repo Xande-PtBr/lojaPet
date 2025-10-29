@@ -12,7 +12,7 @@ export function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-          <div className="relative">
+          <div className="relative" data-aos="fade-up-right" data-aos-delay="300">
           <div className="relative w-full h-[400px] rounded-3xl 
           overflow-hidden">
             <Image
@@ -39,7 +39,7 @@ export function About() {
 
           </div>
 
-          <div className="space-y-6 mt-10">
+          <div className="space-y-6 mt-10" data-aos="fade-up-left" data-aos-delay="300">
 
           <h2 className="text-4xl font-bold">Sobre</h2>
 
@@ -66,8 +66,9 @@ export function About() {
           <div className="flex gap-2">
 
             <a 
-              href="#"
-              className="bg-[#E84C3D] text-white flex itens-center justify-center w-fit gap-2 px-4 py-2 rounded-md "
+            target="_blank"
+              href="https://wa-me/351934231231?text=Olá, vim pelo site e gostaria de saber mais informações."
+              className="bg-green-500 text-white flex itens-center justify-center w-fit gap-2 px-4 py-2 rounded-md "
             >
             <WhatsappLogoIcon className="w-5 h-5 text-white"/>
             Contato via whatsApp
